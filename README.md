@@ -20,7 +20,7 @@ Small project of a Music Instruments store.
 ## ScreenShots - 
 ## **1. HOME PAGE**
 
-<img style="width:250px;hight:100px" style src="./assets/screenshots/HomePage.jpg" title="Home Page" />
+<img style src="./assets/screenshots/HomePage.jpg" title="Home Page" />
 
 <br><br>
 
