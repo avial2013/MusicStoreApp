@@ -26,4 +26,7 @@ Afterwards run `expo start` and enjoy the app!
 <br>
 
 **_made by A.C.Y enjoy_**
+---
+
+[MD - CheatSheet](./assets/md-CheatSheet.png)
 
