@@ -1,4 +1,4 @@
-# README.
+# README
 ---
 ## Music Store - React Native (expo)
 
@@ -23,4 +23,7 @@ Afterwards run `expo start` and enjoy the app!
 
 >Did you run into a problem? I would like to hear about it: avicop@gmail.com
 
-**_ made by A.C.Y enjoy ^_^ _**
+<br>
+
+**_made by A.C.Y enjoy_**
+
