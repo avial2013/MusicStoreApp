@@ -4,7 +4,7 @@
 
 > NOTE: ALL RIGHTS RESERVED to Avial Yisrael (Cohen)
 
-Small project of a Music Instruments store. 
+Small project of a Music Instruments Store. 
 
 ### Build - UP
 - Stack Navigation
