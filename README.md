@@ -13,7 +13,17 @@ Small project of a Music Instruments store.
 - Input validation lib 
 - Custom fonts (Google)
 
-#### Uploaded with 'dummy-data' for testing...
+<br>
+
+
+##### Uploaded with 'dummy-data' for testing...
+
+<br>
+
+>#### **Coupon codes are:**
+> * **_789456123_** - 10% discount
+> * **_987876765_** - 15% discount
+> * **_234345456_** - 25% discount
 
 ---
 
