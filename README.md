@@ -23,4 +23,4 @@ Afterwards run `expo start` and enjoy the app!
 
 >Did you run into a problem? I would like to hear about it: avicop@gmail.com
 
-**__ made by A.C.Y enjoy ^_^ __**
+**_ made by A.C.Y enjoy ^_^ _**
