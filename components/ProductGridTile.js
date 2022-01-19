@@ -9,7 +9,7 @@ export default function ProductGridTile(props) {
             <TouchableOpacity style={styles.gridItem} onPress={props.onSelect}>
                 <ImageBackground source={{ uri: props.imageURL }} resizeMode="cover" style={styles.BGImg}>
                     <View>
-                        <Text style={[styles.titles,styles.textFont,{marginLeft:12}]}>{props.title}{"\n"}{props.price}$</Text>
+                        <Text style={[styles.titles, styles.textFont, { marginLeft: 12 }]}>{props.title}{"\n"}{props.price}$</Text>
                     </View>
                 </ImageBackground>
             </TouchableOpacity>

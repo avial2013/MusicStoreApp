@@ -124,7 +124,7 @@ export default function PaymentDetailsSend(props) {
 
     return (
         <TouchableOpacity onPress={() => { check() }} style={styles.sendBtn}>
-            <Text style={[{ color: '#333', fontSize: 20, alignSelf: 'center' },styles.textFont]}>Send</Text>
+            <Text style={[{ color: '#333', fontSize: 20, alignSelf: 'center' }, styles.textFont]}>Send</Text>
         </TouchableOpacity>
     )
 }

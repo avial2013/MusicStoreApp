@@ -1,4 +1,4 @@
-import { View, Text, FlatList } from 'react-native';
+import { View, FlatList } from 'react-native';
 import styles from '../assets/Style';
 import ProductGridTile from './../components/ProductGridTile';
 import { PRODUCTS } from '../data/dummy-data';

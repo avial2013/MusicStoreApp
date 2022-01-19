@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text, TouchableOpacity} from "react-native";
+import { View, Text, TouchableOpacity } from "react-native";
 import styles from "../assets/Style";
 import { ImageBackground } from 'react-native';
 
@@ -11,7 +11,7 @@ export default function CategoryGridTile(props) {
         <View>
           <ImageBackground source={{ uri: props.imgURL }} resizeMode="cover" style={styles.BGImg}>
             <View style={styles.gridContainer}>
-              <Text style={[styles.titles,styles.textFont,{marginLeft:10}]}>{props.title}</Text>
+              <Text style={[styles.titles, styles.textFont, { marginLeft: 10 }]}>{props.title}</Text>
             </View>
           </ImageBackground>
         </View>

@@ -1,9 +1,12 @@
+/***  HIDDEN EASTER EGG  ***/
+
 /**
  * Takes a simple object and converts it in to a JSON displayed String.
  * 
- *  PARAMS: Object obj
- *  RETURN: String JSON (displayed)
+ *  @PARAMS - Object obj
+ *  @RETURN - String JSON (displayed)
  */
+
 export default function ObjToJSON(obj){
     // Extracts the `keys` of an object and returns an array containing the `keys`
     let keys = Object.keys(obj)

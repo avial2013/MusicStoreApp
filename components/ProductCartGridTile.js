@@ -15,7 +15,7 @@ export default function ProductCartGridTile(props) {
                 </TouchableOpacity>
                 <ImageBackground source={{ uri: props.imageURL }} resizeMode='cover' style={{ width: "100%" }}>
                     <View>
-                        <Text style={[styles.titles,styles.textFont,{marginLeft:10}]}>{props.title}{"\n"}${props.price}</Text>
+                        <Text style={[styles.titles, styles.textFont, { marginLeft: 10 }]}>{props.title}{"\n"}${props.price}</Text>
                     </View>
                 </ImageBackground>
             </View>

@@ -24,10 +24,10 @@ export default function HomeScreen({ navigation }) {
   return (
     <View style={styles.BG}>
       <View style={styles.container}>
-        <Text style={[styles.titles,{fontSize:50}]}>Categories</Text>
+        <Text style={[styles.titles, { fontSize: 50 }]}>Categories</Text>
       </View>
       <FlatList
-        keyExtractor={(item, index) => item.id}
+        keyExtractor={(item) => item.id}
         data={CATEGORIES}
         renderItem={renderGridItem}
       />

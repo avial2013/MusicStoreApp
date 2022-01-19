@@ -3,11 +3,11 @@ import { StyleSheet } from "react-native";
 
 export default StyleSheet.create({
 
-  textFont:{
-    fontFamily:'textFont'
+  textFont: {
+    fontFamily: 'textFont'
   },
-  headerFont:{
-    fontFamily:'headerFont'
+  headerFont: {
+    fontFamily: 'headerFont'
   },
 
   //Main body
@@ -23,12 +23,12 @@ export default StyleSheet.create({
   },
 
   //Home page
-  categoryWrapper:{
-    margin:5,
-    alignSelf:'center',
-    width:385,
-    borderRadius:25,
-    overflow:'hidden'
+  categoryWrapper: {
+    margin: 5,
+    alignSelf: 'center',
+    width: 385,
+    borderRadius: 25,
+    overflow: 'hidden'
   },
 
 
@@ -38,13 +38,13 @@ export default StyleSheet.create({
     flex: 1,
     height: 150,
   },
-  prodWrapper:{
-    marginBottom:5,
-    alignSelf:'center',
-    width:350,
-    borderRadius:25,
-    overflow:'hidden',
-    elevation:5
+  prodWrapper: {
+    marginBottom: 5,
+    alignSelf: 'center',
+    width: 350,
+    borderRadius: 25,
+    overflow: 'hidden',
+    elevation: 5
   },
   gridCartContainer: {
     flex: 1,
@@ -92,16 +92,16 @@ export default StyleSheet.create({
     textShadowColor: 'red',
     textShadowOffset: { width: 1, height: 2 }
   },
-  cardProd:{
+  cardProd: {
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
-    marginBottom:25,
-    height:750,
-    width:350,
-    borderRadius:25,
-    elevation:15,
-    backgroundColor:'#4169e1',
+    marginBottom: 25,
+    height: 750,
+    width: 350,
+    borderRadius: 25,
+    elevation: 15,
+    backgroundColor: '#4169e1',
   },
 
   regText: {
@@ -109,8 +109,8 @@ export default StyleSheet.create({
     color: 'cornsilk',
   },
   prodImg: {
-    alignSelf:'center',
-    marginVertical:40,
+    alignSelf: 'center',
+    marginVertical: 40,
     width: 250,
     height: 250,
     borderRadius: 25,
@@ -137,12 +137,12 @@ export default StyleSheet.create({
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
-    marginVertical:25,
-    height:400,
-    width:350,
-    borderRadius:25,
-    elevation:15,
-    backgroundColor:'#4169e1',
+    marginVertical: 25,
+    height: 400,
+    width: 350,
+    borderRadius: 25,
+    elevation: 15,
+    backgroundColor: '#4169e1',
   },
 
   //Payment page
@@ -160,16 +160,16 @@ export default StyleSheet.create({
     alignSelf: 'center',
     margin: 15,
     marginBottom: 50,
-    padding:10,
-    width:100,
+    padding: 10,
+    width: 100,
     borderRadius: 8,
     backgroundColor: '#dc143c'
   },
-  
-  
+
+
 
   // Purchased made screen
-  cardWrapper:{
+  cardWrapper: {
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
@@ -178,25 +178,25 @@ export default StyleSheet.create({
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
-    marginVertical:150,
-    width:350,
-    borderRadius:25,
-    elevation:15,
-    backgroundColor:'#4169e1',
+    marginVertical: 150,
+    width: 350,
+    borderRadius: 25,
+    elevation: 15,
+    backgroundColor: '#4169e1',
   },
-  purchText:{
-    textAlign:'center',
+  purchText: {
+    textAlign: 'center',
     fontSize: 26,
     color: "white",
-    marginVertical:25,
+    marginVertical: 25,
   },
-  popToTop:{
-    marginVertical:15,
-    justifyContent:'center',
-    height:45,
-    width:250,
-    backgroundColor:'#dc143c',
-    borderRadius:17,
+  popToTop: {
+    marginVertical: 15,
+    justifyContent: 'center',
+    height: 45,
+    width: 250,
+    backgroundColor: '#dc143c',
+    borderRadius: 17,
   },
 
 });

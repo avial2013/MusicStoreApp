@@ -20,4 +20,4 @@ export default class Product {
         this.finalPriceIncDel = finalPriceIncDel
         this.reviews = reviews
     }
-  }
+}

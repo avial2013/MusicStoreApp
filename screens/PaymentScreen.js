@@ -1,4 +1,4 @@
-import { TextInput, ScrollView, TouchableOpacity, View, Text } from 'react-native';
+import { TextInput, ScrollView, View, Text } from 'react-native';
 import { Divider } from 'react-native-elements/dist/divider/Divider';
 import styles from '../assets/Style';
 import { useState } from 'react';
@@ -24,81 +24,81 @@ export default function PaymentScreen({ navigation }) {
     <View style={[styles.cardCart, { alignSelf: 'center' }]}>
       <ScrollView showsVerticalScrollIndicator={false}>
 
-        <Text style={[styles.titles,styles.headerFont, { marginTop: 15 }]} >User {'$'} Card Details</Text>
+        <Text style={[styles.titles, styles.headerFont, { marginTop: 15 }]} >User {'$'} Card Details</Text>
         <Divider width={4} color='#dc143c' style={{ width: 250, marginVertical: 25, alignSelf: 'center' }} />
 
-        <TextInput style={[styles.inputBox,styles.textFont]}
+        <TextInput style={[styles.inputBox, styles.textFont]}
           placeholder='First Name'
           placeholderTextColor={'bisque'}
           onChangeText={text => setFirstName(text)}
         />
 
-        <TextInput style={[styles.inputBox,styles.textFont]}
+        <TextInput style={[styles.inputBox, styles.textFont]}
           placeholder='Last Name'
           placeholderTextColor={'bisque'}
           onChangeText={text => setLastName(text)}
         />
 
-        <TextInput style={[styles.inputBox,styles.textFont]}
+        <TextInput style={[styles.inputBox, styles.textFont]}
           placeholder='Email'
           placeholderTextColor={'bisque'}
           onChangeText={text => setEmail(text)}
         />
 
-        <TextInput style={[styles.inputBox,styles.textFont]}
+        <TextInput style={[styles.inputBox, styles.textFont]}
           placeholder='Phone number'
           keyboardType='number-pad'
           placeholderTextColor={'bisque'}
           onChangeText={text => setPhoneNum(text)}
         />
 
-        <TextInput style={[styles.inputBox,styles.textFont]}
+        <TextInput style={[styles.inputBox, styles.textFont]}
           placeholder='Country'
           placeholderTextColor={'bisque'}
           onChangeText={text => setCountry(text)}
         />
 
-        <TextInput style={[styles.inputBox,styles.textFont]}
+        <TextInput style={[styles.inputBox, styles.textFont]}
           placeholder='City'
           placeholderTextColor={'bisque'}
           onChangeText={text => setCity(text)}
         />
 
-        <TextInput style={[styles.inputBox,styles.textFont]}
+        <TextInput style={[styles.inputBox, styles.textFont]}
           placeholder='Street address'
           placeholderTextColor={'bisque'}
           onChangeText={text => setStreetAddress(text)}
         />
 
-        <Text style={[styles.titles,styles.headerFont, { marginTop: 15, marginLeft: 13 }]}>Card</Text>
+        <Text style={[styles.titles, styles.headerFont, { marginTop: 15, marginLeft: 13 }]}>Card</Text>
 
-        <TextInput style={[styles.inputBox,styles.textFont]}
+        <TextInput style={[styles.inputBox, styles.textFont]}
           placeholder="Owner's name"
           placeholderTextColor={'bisque'}
           onChangeText={text => setOwnerName(text)}
         />
 
-        <TextInput style={[styles.inputBox,styles.textFont]}
+        <TextInput style={[styles.inputBox, styles.textFont]}
           placeholder='ID number'
           keyboardType='number-pad'
           placeholderTextColor={'bisque'}
           onChangeText={text => setIdNum(text)}
         />
 
-        <TextInput style={[styles.inputBox,styles.textFont]}
+        <TextInput style={[styles.inputBox, styles.textFont]}
           placeholder='Card Number'
           keyboardType='number-pad'
           placeholderTextColor={'bisque'}
           onChangeText={text => setCardNum(text)}
         />
 
-        <TextInput style={[styles.inputBox,styles.textFont]}
+        <TextInput style={[styles.inputBox, styles.textFont]}
           placeholder='Expiration date'
           placeholderTextColor={'bisque'}
           onChangeText={text => setExpirationDate(text)}
         />
 
-        <TextInput style={[styles.inputBox,styles.textFont]}
+        <TextInput style={[styles.inputBox, styles.textFont]}
           placeholder='CVV'
           keyboardType='number-pad'
           placeholderTextColor={'bisque'}
@@ -120,10 +120,6 @@ export default function PaymentScreen({ navigation }) {
           CVV={CVV}
           navigation={() => navigation.replace("Purchase")}
         />
-
-        {/* <TouchableOpacity onPress={() => navigation.replace("Purchase")} style={styles.sendBtn}>
-          <Text style={{ color: '#333', fontSize: 20, alignSelf: 'center' }}>Send</Text>
-        </TouchableOpacity> */}
 
       </ScrollView>
     </View>

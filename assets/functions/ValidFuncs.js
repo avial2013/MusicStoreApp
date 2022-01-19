@@ -1,3 +1,18 @@
+/**
+ * Input Validation LIB:
+ * 
+ * Includes - methods for checking: 
+ * - Int in Str
+ * - Str in Int
+ * - Emails
+ * - Sign in anyone else  
+ * 
+ * @PARAMS - test
+ * @RETURN - boolean
+ */
+
+
+
 export function isNumInStr(test) {
     //Checks number in test
     for (let i = 0; i < 10; i++) {

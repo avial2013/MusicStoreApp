@@ -77,23 +77,23 @@ export default function CartScreen({ route, navigation }) {
           <>
             <View style={styles.cardWrapper}>
               <View style={styles.cardCart}>
-                <Text style={[{ fontSize: 24, color: "white", paddingBottom: 10,marginTop:15 },styles.textFont]}>Coupon discount: </Text>
+                <Text style={[{ fontSize: 24, color: "white", paddingBottom: 10, marginTop: 15 }, styles.textFont]}>Coupon discount: </Text>
                 <TextInput
                   onChangeText={text => setCoupon(text)}
                   onSubmitEditing={() => { console.log("submitted"); runCoupon() }}
                   placeholder='Enter Coupons Number'
                   keyboardType='number-pad'
-                  style={[{ padding: 5, borderColor: '#dc143c', borderWidth: 1, borderRadius: 8, width: 200 },styles.textFont]}
+                  style={[{ padding: 5, borderColor: '#dc143c', borderWidth: 1, borderRadius: 8, width: 200 }, styles.textFont]}
                 />
 
-                <Text style={[{ fontSize: 26, color: "white", paddingTop: 20 },styles.textFont]}>Total Price - </Text>
-                <Text style={[{ fontSize: 42, color: "white" },styles.headerFont]}>${totalPrice}</Text>
-                <Text style={[{ fontSize: 16, color: "white", paddingBottom: 30 },styles.textFont]}>(Shipping {'&'} Coupon){'\n'}</Text>
-                <View style={{backgroundColor:'green',width:200,height:40,paddingTop:5,borderRadius:15,elevation:15,marginBottom:20}}>
+                <Text style={[{ fontSize: 26, color: "white", paddingTop: 20 }, styles.textFont]}>Total Price - </Text>
+                <Text style={[{ fontSize: 42, color: "white" }, styles.headerFont]}>${totalPrice}</Text>
+                <Text style={[{ fontSize: 16, color: "white", paddingBottom: 30 }, styles.textFont]}>(Shipping {'&'} Coupon){'\n'}</Text>
+                <View style={{ backgroundColor: 'green', width: 200, height: 40, paddingTop: 5, borderRadius: 15, elevation: 15, marginBottom: 20 }}>
                   <TouchableOpacity
                     onPress={() => navigation.navigate("Payment")}
                   >
-                    <Text style={[{ fontSize: 20,textAlign:'center' },styles.textFont]}>Purchase</Text>
+                    <Text style={[{ fontSize: 20, textAlign: 'center' }, styles.textFont]}>Purchase</Text>
                   </TouchableOpacity>
                 </View>
                 <Divider width={4} color='#dc143c' style={{ width: 250, marginVertical: 25, alignSelf: 'center' }} />
